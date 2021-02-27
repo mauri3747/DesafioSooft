@@ -1,4 +1,4 @@
-                                                            Desafio Sooft Technology
+                                      Desafio Sooft Technology
 
 El proyecto fue desarrollado con Angular 10 en aproximadamente 2,40hs mediante el IDE Visual Code
 
