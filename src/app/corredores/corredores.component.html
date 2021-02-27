@@ -1,0 +1,30 @@
+<div class="container">
+<!-- Image and text -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/logo2.png" alt="" width="30" height="24" class="d-inline-block align-top">
+      Sooft Technology
+    </a>
+  </div>
+</nav>
+    <h3 class="corredores"> Lista de corredores</h3>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4" >
+        <div class="col" *ngFor="let corredor of corredores">
+          <div class="card">
+            <div style="width: 68px; margin-left: auto; margin-right: auto">
+                <img src="assets/img/a.png" class="img-fluid" >
+             </div>
+            <div class="card-body">
+              <h5 class="card-title">{{corredor.familyName | uppercase}}</h5>
+              <ul>
+                  <li>Año de nacimiento: {{corredor.dateOfBirth}}</li>
+                  <li>Nacionalidad: {{corredor.nationality}}</li>
+                  <li>Link para mas info: {{corredor.url}}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
