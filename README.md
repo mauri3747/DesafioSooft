@@ -2,7 +2,9 @@
 
 Dentro del proyecto de desafío utilice las siguientes tecnologías:
 
-Utilize Pipe: para poner el nombre del corredor en mayusculas automaticamente
+Utilize: 
+
+Pipe: para poner el nombre del corredor en mayusculas automaticamente
 
 Uso de Bootstrap:
 Se llamo al framework mediante el index.html haciendo uso de los script o Los componentes de Bootstrap que se utilizaron fueron:
